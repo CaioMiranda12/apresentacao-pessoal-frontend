@@ -12,8 +12,8 @@ export function Projects() {
         <h2 className=" font-bold text-white text-2xl sm:text-3xl mt-10 mb-6 border-b-white border-b-2 pb-1">Projetos</h2>
 
         <div className='grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
-          <ProjectCard imageSrc={DiariosImg} description={'Blog de diário de treinos'} />
-          <ProjectCard imageSrc={BrabosBurger} description={'Sistema de restaurante completo'} />
+          <ProjectCard imageSrc={DiariosImg} description={'Blog de diário de treinos'} projectLink={'/'} />
+          <ProjectCard imageSrc={BrabosBurger} description={'Sistema de restaurante completo'} projectLink={'https://github.com/CaioMiranda12/brabosburger-interface'} />
           <ProjectCard imageSrc={SpaceGames} description={'Página de jogos completa'} />
           <ProjectCard imageSrc={DevMotors} description={'Sistema de automóveis com CRM completo'} />
         </div>
