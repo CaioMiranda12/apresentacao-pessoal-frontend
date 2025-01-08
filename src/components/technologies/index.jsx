@@ -11,7 +11,7 @@ export function Technologies() {
   return (
     <section className="text-white">
       <div className="flex flex-col items-center">
-        <h1 className=" font-bold text-2xl sm:text-3xl mt-8 mb-6 border-b-white border-b-2 pb-1">Tecnologias</h1>
+        <h2 className=" font-bold text-2xl sm:text-3xl mt-8 mb-6 border-b-white border-b-2 pb-1">Tecnologias</h2>
 
         <div className="flex w-full flex-wrap">
           <FaReact color="#b039ff" className="flex-grow w-6 h-6 sm:w-16 sm:h-16" />

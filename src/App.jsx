@@ -5,6 +5,7 @@ import CaioImg from './assets/me.jpg'
 import { FaLinkedin } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { Technologies } from './components/technologies';
+import { Projects } from './components/projects';
 
 function App() {
 
@@ -34,7 +35,7 @@ function App() {
             </div>
 
             <div className='mt-5 sm:mt-0 w-9/12 mx-auto'>
-              <img src={CaioImg} alt='imagem de Caio Miranda' className='rounded-lg' />
+              <img src={CaioImg} alt='imagem de Caio Miranda' className='rounded-full' />
             </div>
 
           </div>
@@ -44,7 +45,11 @@ function App() {
 
           <Technologies />
 
+
         </Container>
+
+        <Projects />
+
       </main>
     </>
   );
