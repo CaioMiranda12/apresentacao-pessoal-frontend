@@ -9,7 +9,7 @@ import { SiNextdotjs } from "react-icons/si";
 
 export function Technologies() {
   return (
-    <section className="text-white">
+    <section className="text-white" id="tecnologias">
       <div className="flex flex-col items-center">
         <h2 className=" font-bold text-2xl sm:text-3xl mt-8 mb-6 border-b-white border-b-2 pb-1">Tecnologias</h2>
 

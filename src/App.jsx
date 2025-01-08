@@ -1,11 +1,8 @@
-import { Container } from './components/container'
+import { Container, Technologies, Projects } from './components'
 
 import CaioImg from './assets/me.jpg'
 
-import { FaLinkedin } from "react-icons/fa";
-import { RiInstagramFill } from "react-icons/ri";
-import { Technologies } from './components/technologies';
-import { Projects } from './components/projects';
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 function App() {
 
@@ -14,7 +11,7 @@ function App() {
       <main>
         <Container>
 
-          <div className='mt-8 text-white flex flex-col items-center sm:flex-row sm:gap-4'>
+          <div className='mt-8 text-white flex flex-col items-center sm:flex-row sm:gap-4' id='sobre'>
 
             <div className='text-center sm:text-start'>
               <span className='text-xl text-gray-400'>Olá! Me chamo <strong className='text-blue-500'>Caio Miranda</strong></span>
@@ -29,7 +26,7 @@ function App() {
                 </a>
 
                 <a href='/' target='_blank'>
-                  <RiInstagramFill size={32} color='#fff' />
+                  <FaGithub size={32} color='#fff' />
                 </a>
               </div>
             </div>

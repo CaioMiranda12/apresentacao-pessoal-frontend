@@ -6,7 +6,7 @@ import DevMotors from '../../assets/devmotors.png'
 
 export function Projects() {
   return (
-    <section className="w-full px-8">
+    <section className="w-full px-8" id='projetos'>
       <div className="flex flex-col items-center">
 
         <h2 className=" font-bold text-white text-2xl sm:text-3xl mt-10 mb-6 border-b-white border-b-2 pb-1">Projetos</h2>
