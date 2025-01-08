@@ -25,7 +25,7 @@ function App() {
                   <FaLinkedin size={32} color='#fff' />
                 </a>
 
-                <a href='/' target='_blank'>
+                <a href='https://github.com/CaioMiranda12' target='_blank'>
                   <FaGithub size={32} color='#fff' />
                 </a>
               </div>
